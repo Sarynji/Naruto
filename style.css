@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+h2{
+    text-transform: uppercase;
+    color: rgb(9, 38, 75);
+}
+p{
+    color: rgb(26, 26, 141);
+}
+
+.shinobi-card {
+    border-radius: 8px;
+    margin: 20px;
+    padding: 10px;
+    width: 200px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transition: scale(0.5s);
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+.shinobi-card:hover{
+    transform: scale(1.05);
+}
+
+.shinobi-image {
+    width: 180px;
+    height: 180px;
+    border-radius: 8px;
+    object-fit: cover;
+}
